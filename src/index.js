@@ -1,27 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ImageComponent from './ImageComponent';
-import Post from './Post'
 
-const App = () => {
+import App from './components/App'
 
-    return (
-        <div className="ui cointainer post">
-            <Post>
-                <ImageComponent index="1" />
-            </Post>
-            <Post>
-                <ImageComponent index="2" />
-            </Post>
-            <Post>
-                <ImageComponent index="3" />
-            </Post>
-            <Post>
-                <ImageComponent index="4" />
-            </Post>
-        </div>
-    );
-};
+//GET https://api.nasa.gov/planetary/apod
+//api key https://api.nasa.gov/planetary/apod?api_key=VdQaIphlzu2l4v9Xm3vh4eL5R4dXjt3GuZNPJyVo
+
 
 
 ReactDOM.render(
